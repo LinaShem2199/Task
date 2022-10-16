@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #6897bb;}
+.s2 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0">BYTES_ONE_CHAR = </span><span class="s1">1  </span><span class="s2"># размер одного символа в байтах</span>
+
+<span class="s2"># никаких магических чисел</span>
+<span class="s0">pages = </span><span class="s1">100</span>
+<span class="s0">lines = </span><span class="s1">50</span>
+<span class="s0">chars = </span><span class="s1">25</span>
+
+<span class="s0">total_chars = pages*lines*chars</span>
+<span class="s0">total_bytes = total_chars * BYTES_ONE_CHAR</span>
+
+<span class="s0">disk_size = </span><span class="s1">1.44 </span><span class="s0">* </span><span class="s1">1024 </span><span class="s0">* </span><span class="s1">1024</span>
+
+<span class="s0">print(disk_size // total_bytes)</span>
+</pre>
+</body>
+</html>
